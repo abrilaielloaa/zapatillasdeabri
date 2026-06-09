@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-size:62,5%;
+}
+body{
+    background-color: #FFF2EB;
+}
+header{
+    /* fondo de color */
+    background-color: #1F0062;
+    /* color del texto */
+    color: #FFF2EB;
+}
+h1{
+    /* tamaño del texto */
+    font-size: 6rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 2rem;
+}
+a{
+    color: #FFF2EB;
+    /* decoracion de texto. Ej: subrayado */
+    text-decoration: none;
+}
+ul{
+    /* bullets de lista */
+    list-style: none;
+}
+h2, h3, p{
+    color: #681B00;
+}
+h1, h2, h3{
+    font-family: "Roboto", sans-serif;
+}
+p,a,button, label, input{
+    /* declaro la tipografía del texto */
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+article p{
+    /* cambio el peso */
+    font-weight: bold;
+    /* si es cursiva o no */
+    font-style: italic;
+}
+button{
+    background-color: #1F0062;
+    color: #FFF2EB;
+    font-weight: bold;
+}
+footer{
+    background-color: #1F0062;
+    color: #FFF2EB;
+}
+.inputSubmit{
+    background-color: #FFF2EB;
+    color: #1F0062;
+    font-weight: bold;
+}
+.copyright{
+    color: #FFF2EB;
+}
+
+/* unidades de medida
+Relativas | Absolutas 
+px: absoluta
+
+Rem: relativa. tamaño fuente de la etiqueta raíz (html)
+%: relativa. Al tamaño del padre. 
+*/
